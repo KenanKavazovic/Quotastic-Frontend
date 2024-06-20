@@ -1,0 +1,156 @@
+.signup_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 420px;
+}
+
+.signup_header{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+}
+
+.signup_header_black_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #322D38;
+  }
+  
+  .signup_header_orange_text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #DE8667;
+  }
+
+  .signup_info_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: -20px;
+    color: #322D38;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .avatar_container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .signup_labels{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .line_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+  }
+
+  .signup_label_email,
+  .signup_label_firstname,
+  .signup_label_password,
+  .signup_label_confirm_password{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+  
+  .signup_label_lastname{
+    margin-left: 157px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+  }
+
+.signup_submit_button {
+  box-sizing: content-box; 
+  height: 40px;
+  font-size: 16px;
+  font-style: normal;
+  width: 367px;
+  padding: 4px 30px 4px 24px;
+  border-radius: 32px;
+  border: #EFB467 3px solid;
+  color: #FFFFFF;
+  background-color: #DE8667;
+}
+
+.signup_submit_button:hover {
+  text-decoration: none;
+  background-color: #ececec;
+  cursor: pointer;
+}
+  
+.signup_existing_account{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #322D38;
+}
+
+  @media (max-width: 662px) {
+    .signup_container{
+      margin-top: 65px;
+      margin-right: 50px;
+    }
+
+    .signup_header {
+      margin-left: 85px;
+    }
+
+    .signup_subheader {
+      width: 349px;
+      height: 38px;
+      margin-left: 85px;
+    }
+
+    .avatar_container {
+      margin-top: 16px;
+      margin-left: 95px;
+    }
+
+    .signup_label_email, .signup_label_firstname, .signup_label_password, .signup_label_confirm_password {
+      margin-left: 62px;
+      margin-bottom: 0px;
+    }
+
+    .signup_label_lastname {
+      margin-left: 145px;
+      margin-bottom: 0px;
+    }
+
+    .line_input {
+      margin-left: 130px;
+    }
+    
+    .signup_submit_button{
+      width: 340px;
+      margin-left: 55px;
+    }
+
+    .signup_existing_account {
+      margin-left: 62px;
+    }
+  }

@@ -1,0 +1,39 @@
+.navbar{
+    z-index: inherit;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 645px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    padding: 24px 0px;
+    margin: 0%;
+    padding: 0%;
+    height: 80px;
+}
+
+.navbar div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  
+}
+
+.navbar div div button{
+    margin: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+@media (max-width: 662px) {
+    .navbar {
+        width: 100%;
+    }
+}
